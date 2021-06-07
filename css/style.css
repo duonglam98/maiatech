@@ -1,0 +1,897 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(MaiAtech/css/fonts/Gilroy-Medium1.otf);
+}
+
+html, body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 2300px;
+    background: url('/MaiAtech/img/header-bg.jpg' );
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+nav {
+    width: 100%;
+    height: 200px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-nav li {
+    padding-right: 39px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    width: 100%;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.navbar li a:hover {
+    color: rgb(31, 184, 211) !important;
+}
+
+.navbar-branch {
+    position: absolute;
+    top: 81px;
+    left: 10%;
+}
+
+
+.nav-link {
+    width: 10%;
+}
+
+.sub-slogan {
+    margin-top: 72px;
+    margin-left: -6%;
+}
+
+.line1{
+    position: absolute;
+    top: 287px;
+    left: -148px;
+}
+
+.text-logo {
+    position: absolute; 
+    top: 59px; 
+    left: 2%; 
+    font-size: 21px;
+}
+
+.img0 {
+    color: white;
+    margin-top: 250px;
+}
+
+.img1 {
+    font-size: 288px;
+    font-weight: 900;
+    position: absolute;
+    top: 176px;
+    left: -14%;
+}
+
+.img2 {
+    font-size: 92px;
+    font-weight: 300;
+    position: absolute;
+    top: 250px;
+    left: 6%;
+}
+
+.img3 {
+    font-size: 132px;
+    font-weight: 700;
+    position: absolute;
+    top: 358px;
+    left: 6%;
+}
+
+.img4 {
+    position: absolute;
+    top: 510px;
+    left: -59px;
+    width: 616px;
+}
+
+
+.foll {
+    width: 23%;
+    height: 55px;
+    color: #037EE3;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #124cce;
+    border-radius: 5px;
+    margin-left: 53%;
+    margin-top: 575px;
+}
+
+.social {
+    margin-top: 29px;
+    margin-left: 57%;
+}
+
+.twit {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.content {
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    left: -1%;
+}
+
+.img5 {
+    
+    position: absolute;
+    top: 174px;
+    left: -1%;
+    z-index: 1;
+
+}
+
+.rounded {
+    width: 89%;
+    height: 1278px;
+    left: 6%;
+    position: absolute;
+    top: -5px;
+    z-index: 2;
+}
+
+.ball {
+    position: absolute;
+    top: 173px;
+    left: 26%;
+    z-index: 2;
+}
+
+.ball-line {
+    position: absolute;
+    top: 523px;
+    left: 1%;
+    z-index: 2;
+}
+
+.squa {
+    position: absolute;
+    top: 562px;
+    left: 45%;
+    width: 14%;
+}
+
+.line1 {
+    position: absolute;
+    top: 287px;
+    left: -15px;
+}
+
+.text-center {
+    width: 100%;
+    height: 50px;
+
+}
+
+.intro-maia {
+    width: 70%; 
+    height: 269px; 
+    position: absolute; 
+    left: 10%; 
+    top: 92px;
+}
+
+.introdu {
+    width: 480px;
+    height: 115px;
+    position: absolute;
+    color: #0061B0;
+    font-size: 96px;
+    top: -8px;
+    left: 27%;
+
+}
+
+.maia {
+    width: 480px;
+    height: 115px;
+    position: absolute;
+    color: #0061B0;
+    font-size: 96px;
+    font-weight: 700;
+    top: 83px;
+    left: 41%;
+}
+
+.intro-content {
+    width: 80%;
+    height: 900px; 
+    position: absolute; 
+    top: 372px; 
+    left: 10%;
+}
+
+.img6 {
+    width: 21%;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    left: 40%;
+}
+
+.end-slogan {
+    margin-top: 97px;
+}
+
+.footer {
+    width: 100%;
+    height: 1800px;
+    background: url(/MaiAtech/img/footer-bg.jpg);
+    background-size: 100% 1800px;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#footer {
+    width: 100%;
+    height: 1100px;
+}
+
+.img7 {
+    width: 1690px;
+    height: 627px;
+    position: absolute;
+    top: 450px;
+    left: -2%;
+}
+
+.img8 {
+    width: 1690px;
+    height: 635px;
+    position: absolute;
+    top: 450px;
+    left: -2%;
+}
+
+.img10 {
+    margin-left: -4%;
+    margin-top: 136px;
+}
+
+.img11 {
+    margin-top: -36px;
+    margin-left: 14%;
+}
+
+.footer-slogan1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    top: 546px;
+   
+}
+
+.footer-slogan2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    top: 591px;
+    
+}
+
+
+.footer-slogan3 {
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 627px;
+    left: 1%;
+    
+}
+
+.footer-slogan4 {
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 722px;
+    left: 1%;
+
+}
+
+.social-1 {
+    margin-top: -52px;
+}
+
+.logo2 {
+    margin-top: -158px;
+}
+
+.footer-slogan5 {
+    width: 193px;
+    height: 61px;
+    color: white;
+    background: linear-gradient(to left, #048bfa 0%, #0061b0 100%);  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,2);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #124cce;
+    border-radius: 5px;
+    position: absolute;
+    top: 898px;
+    left: 43%;
+    
+}
+
+.img9 {
+    margin-top: 968px;
+    margin-left: 72%;
+}
+
+.contact {
+    width: 100%;
+    height: 627px;
+}
+
+.under {
+    margin-top: 103px;
+}
+
+.under-contact {
+    position: absolute;
+    top: 32px;
+}
+
+.under-menu {
+    position: absolute;
+    top: 49px;
+    left: 46%;
+    font-size: 16.5px;
+}
+
+
+.under-menu ul li {
+    list-style-type: none;
+    
+}
+
+.under-menu ul li a {
+    color: white;
+}
+
+.copyright {
+    margin-left: 26%;
+    margin-top: 5px;
+}
+
+
+
+
+
+@media (max-width: 940px){
+
+   .header {
+        width: 100%;
+        height: 2300px;
+        background: url('/MaiAtech/img/header-bg.jpg' );
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        color: white;
+       
+    }
+
+    .nav {
+       
+        width: 100%;
+        height: 122px;
+        
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        left: 7%;
+    }
+    .navbar-nav {
+        width: 52%;
+        position: absolute;
+        top: 31%;
+        right: 37%;
+    }
+
+    .navbar-branch {
+        position: absolute;
+        top: 30%;
+        left: 34%;
+    }
+
+    .slogan {
+        width: 100%;
+        height: 456px;
+    }
+
+    .sub-slogan {
+        position: absolute;
+        top: 100px;
+        left: -49%;
+    }
+    .squa {
+        position: absolute;
+        top: 200px;
+        left: 26%;
+        width: 14%;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 40px;
+        left: -15px;
+    }
+
+    .img1 {
+        font-size: 234px;
+        font-weight: 900;
+        position: absolute;
+        top: -67px;
+        left: -55%;
+    }
+
+    .img2 {
+        font-size: 69px;
+        font-weight: 300;
+        position: absolute;
+        top: -8px;
+        left: -20%;
+    }
+
+    .img3 {
+        font-size: 95px;
+        font-weight: 700;
+        position: absolute;
+        top: 97px;
+        left: -19%;
+    }
+
+    .img4 {
+        position: absolute;
+        top: 200px;
+        left: -155px;
+        width: 108%;
+
+    }
+
+    .foll {
+        width: 37%;
+        height: 50px;
+        position: absolute;
+        color: #037EE3;
+        background-color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #124cce;
+        border-radius: 5px;
+        top: 232px;
+        left: 34%;
+    }
+
+    .social {
+        position: absolute;
+        top: 400px;
+        left: 34%;
+    }
+
+    .rounded {
+        width: 89%;
+        height: 1278px;
+        left: 9%;
+        position: absolute;
+        top: -5px;
+        z-index: 2;
+    }
+
+    .intro-maia {
+        width: 70%;
+        height: 269px;
+        position: absolute;
+        left: -14%;
+        top: 92px;
+    }
+
+    .img5 {
+        position: absolute;
+        top: 104px;
+        left: -3%;
+        z-index: 1;
+    }
+
+    .ball-line {
+        position: absolute;
+        top: 403px;
+        left: 1%;
+        z-index: 2;
+    }
+
+    .end-slogan {
+        position: absolute;
+        top: 960px;
+        left: 6%;
+    }
+
+    .img6 {
+        width: 33%;
+        height: 25px;
+        position: absolute;
+        top: 15px;
+        left: 40%;
+    }
+
+    .footer-cop {
+        margin-top: 53px;
+        height: 55px;
+    }
+
+    .img7 {
+        width: 115%;
+        height: 684px;
+        position: absolute;
+        top: 317px;
+        left: -2%;
+    }
+    
+    .img8 {
+        width: 115%;
+        height: 693px;
+        position: absolute;
+        top: 317px;
+        left: -2%;
+        
+    }
+
+    .footer-slogan1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        position: absolute;
+        top: 546px;
+        left: -11%;
+    }
+
+    .footer-slogan2 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        position: absolute;
+        top: 591px;
+        left: -11%;
+    }
+
+    .footer-slogan3 {
+        font-size: 96px;
+        font-weight: 700;
+        color: white;
+        position: absolute;
+        top: 627px;
+        left: -11%;
+    }
+
+    .footer-slogan4 {
+        font-size: 96px;
+        font-weight: 700;
+        color: white;
+        position: absolute;
+        top: 722px;
+        left: -10%;
+    }
+
+    .footer-slogan5 {
+        width: 193px;
+        height: 61px;
+        position: absolute;
+        color: white;
+        background: linear-gradient(to left, #048bfa 0%, #0061b0 100%);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,2);
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #124cce;
+        border-radius: 5px;
+        top: 871px;
+        left: 28%;
+    }
+
+    .img9 {
+        position: absolute;
+        top: 914px;
+        left: 63%;
+        width: 81px;
+    }
+
+    .logo2 {
+        position: absolute;
+        top: -98px;
+        left: 16%;
+    }
+
+    .social-1 {
+        position: absolute;
+        top: 54px;
+        left: 2%;
+    }
+    
+    .under-contact {
+        font-size: 12px;
+    }
+
+    .contact {
+        width: 100%;
+        height: 490px;
+    }
+
+    .under-menu {
+        position: absolute;
+        top: 300px;
+        left: -84%;
+        font-size: 13.5px;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 30%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 414px){
+    .header {
+        
+        width: 100%;
+        height: auto;
+        background: url(/MaiAtech/img/header-bg.jpg);
+        background-size: 414px;
+        background-repeat: no-repeat;
+        
+    }
+
+    nav {
+        width: 100%;
+        height: 88px;
+    }
+
+    .logo {
+        height: 20px;
+       
+    }
+
+    .navbar-branch {
+        position: absolute;
+        top: 43px;
+        left: 47%;
+    }
+
+    .text-logo {
+        position: absolute;
+        top: 27px;
+        left: 2%;
+        font-size: 11px;
+    }
+
+    .slogan {
+        width: 100%;
+        height: 240px;
+    }
+    
+
+    .squa {
+        position: absolute;
+        top: 98px;
+        left: 18%;
+        width: 11%;
+    }
+
+  
+    .line1 {
+        position: absolute;
+        top: -2px;
+        left: -55px;
+    }
+
+    .sub-slogan {
+        position: absolute;
+        top: 100px;
+        left: 0%;
+    }
+
+    .img1 {
+        font-size: 91px;
+        font-weight: 900;
+        position: absolute;
+        top: -86px;
+        left: 36%;
+    }
+
+    .img2 {
+        font-size: 28px;
+        font-weight: 300;
+        position: absolute;
+        top: -62px;
+        left: 48%;
+    }
+
+    .img3 {
+        font-size: 41px;
+        font-weight: 700;
+        position: absolute;
+        top: -26px;
+        left: 49%;
+    }
+
+    .img4 {
+        display: none;
+    }
+
+    .foll {
+        width: 37%;
+        height: 50px;
+        position: absolute;
+        color: #037EE3;
+        background-color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid #124cce;
+        border-radius: 5px;
+        top: 32px;
+        left: 42%;
+    }
+
+    .social {
+        position: absolute;
+        top: 192px;
+        left: 43%;
+    }
+
+    .content {
+        width: 96%;
+        height: 1712px;
+    }
+
+    .img5 {
+        position: absolute;
+        top: 104px;
+        left: -19%;
+        z-index: 1;
+    }
+
+    .rounded {
+      
+        width: 82%;
+        height: 1712px;
+        left: 9%;
+        position: absolute;
+        top: -5px;
+        z-index: 2;
+    
+    }
+
+    .intro-maia {
+        width: 70%;
+        height: 269px;
+        position: absolute;
+        left: 10%;
+        top: 33px;
+    }
+
+    .introdu {
+        width: 100%;
+        height: 66px;
+        position: absolute;
+        color: #0061B0;
+        font-size: 43px;
+        top: -8px;
+        left: -13%;
+    }
+
+    .maia {
+        width: 480px;
+        height: 115px;
+        position: absolute;
+        color: #0061B0;
+        font-size: 60px;
+        font-weight: 700;
+        top: 33px;
+        left: -37%;
+    }
+
+    .intro-content {
+        width: 80%;
+        height: 900px;
+        position: absolute;
+        top: 176px;
+        left: 10%;
+    }
+
+    .img6 {
+        width: 58%;
+        height: 25px;
+        position: absolute;
+        top: 15px;
+        left: 22%;
+    }
+
+    .end-slogan {
+        position: absolute;
+        top: 1435px;
+        left: 1%;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        background: url(/MaiAtech/img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-attachment: initial;
+        background-size: 526px 2000px;
+    }
+
+    .img7 {
+        width: 105%;
+        height: 900px;
+        position: absolute;
+        top: 115px;
+        left: -5%;
+    }
+
+    .img8 {
+        width: 105%;
+        height: 1000px;
+        position: absolute;
+        top: 115px;
+        left: -5%;
+    }
+    
+    .footer-slogan1, .footer-slogan2 {
+        display: none;
+    }
+
+}

@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(MaiAtech/css/fonts/Gilroy-Medium1.otf);
+}
+
+body {
+    margin: 0;
+    
+}
+
+.header {
+    width: 100%;
+    height: 3000px;
+    background-image: url('/MaiAtech/img/home-page/Mask Group.png' );
+    background-size: 100% ;
+    background-repeat: no-repeat;
+
+}
+
+.img-brown {
+    width: 100%;
+    height: 2000px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+
+}
+
+.navbar {
+    height: 235px;
+}
+
+.navbar-nav {
+   width: 36%;
+   height: auto;
+
+}
+
+.navbar-branch {
+    color: white;
+    position: absolute;
+    top: 94px;
+    left: 10%;
+}
+
+.slogan {
+    color: white;
+    margin-top: 22px;
+    margin-left: 10%;
+}
+
+.img1 {
+    font-size: 288px;
+    font-weight: 900;
+    position: absolute;
+    top: 177px;
+    left: -29%;
+}
+
+.img2 {
+    font-size: 89px;
+    font-weight: 300;
+    position: absolute;
+    top: 248px;
+    left: 2%;
+}
+
+.img3 {
+    font-size: 114px;
+    font-weight: 700;
+    position: absolute;
+    top: 379px;
+    left: 2%;
+}
+
+.img4 {
+    position: absolute;
+    top: 511px;
+    left: -83px;
+    width: 531px;
+}
+
+.foll {
+    width: 39%;
+    height: 55px;
+    color: #037EE3;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #124cce;
+    border-radius: 5px;
+    position: absolute;
+    top: 536px;
+    left: 61%;
+}
+
+.social {
+    position: absolute;
+    top: 860px;
+    left: 72%;
+}
+
+.img-fluid {
+    margin-top: 41px;
+    margin-left: 107%;
+}
+
+.img-eclip-two {
+    position: absolute;
+    top: -100px;
+    left: 152%;
+} 
+
+.line1 {
+    position: absolute;
+    top: 102px;
+    left: 91%;
+    z-index: -1;
+}
+
+.intro-img {
+    margin-top: 219px;
+}
+
+.we-are {
+    position: absolute;
+    top: 327px;
+    left: -44%;
+}
+
+.intro-title {
+    height: 200px;
+    margin-left: -91px;
+    margin-top: 59px;
+}
+
+.who {
+    font-size: 120px;
+    font-weight: 700;
+    color: #0061B0;
+    margin-top: -222px;
+    margin-left: 10%;
+}
+
+.we {
+    font-size: 91px;
+    font-weight: 400;
+    color: #908B8B;
+    margin-top: -65px;
+    margin-left: 29%;
+}
+
+.content {
+    margin-top: 101px;
+}
+
+.read-more {
+    width: 190px;
+    height: 55px;
+    color: white;
+    background: linear-gradient(to left, #048bfa 0%, #0061b0 100%);  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,2);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #124cce;
+    border-radius: 5px;
+    
+}
+
+
+.line-dot {
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    top: 145px;
+    left: 15%;
+}
+
+.our-service {
+    margin-top: 18%;
+}
+
+.our {
+    font-size: 128px;
+    font-weight: 700;
+    color: #0061B0;
+    margin-left: -60%;
+}
+
+.service {
+    font-size: 96px;
+    font-weight: 400;
+    color: #918B8B;
+    margin-left: -9%;
+    margin-top: -57px;
+}
+
+.line-img {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-img-top {
+    width: 45% !important;
+    margin-left: 26%;
+}
+
+.imgl1 {
+    position: absolute;
+    left: 61%;
+}
+
+.imgl2 {
+    position: absolute;
+    top: 31%;
+    left: 55%;
+}
+
+.imgl3 {
+    position: absolute;
+    top: -4%;
+    left: 883px;
+}
+
+.imgl4 {
+    position: absolute;
+    left: 61%;
+}
+
+.three-service {
+    margin-top: -10%;
+}
+
+.squa1 {
+    position: absolute;
+    top: 29%;
+    left: -1%;
+}
+
+.app {
+    font-size: 96px;
+    font-weight: 700;
+    color: #0061B0;
+    
+}
+
+.dev {
+    font-size: 96px;
+    font-weight: 400;
+    color: #908B8B;
+    margin-top: -10%;
+}
+
+.app-dev {
+    margin-left: -4%;
+}
+
+.group-squa {
+    margin-left: 39%;
+}
+
+.content-dev {
+    margin-top: -3%;
+    margin-left: 47%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img-mid {
+    margin-top: -102%;
+    margin-left: 12%;
+}
+
+.img-line {
+    margin-top: -20%;
+    margin-left: 21%;
+}
+
+.img-desktop {
+    margin-top: -111%;
+    margin-left: 25%;
+    width: 77%;
+}
+
+.img-web {
+    margin-top: -73%;
+    margin-left: 37%;
+    width: 41%;
+}
+
+.img-mobile {
+    margin-top: -111%;
+    margin-left: 25%;
+    width: 77%;
+}
