@@ -300,3 +300,103 @@ body {
     margin-left: 25%;
     width: 77%;
 }
+
+.border {
+    margin-left: 5% !important;
+    width: 90%;
+    height: 269px;
+    padding-top: 3%;
+    background: linear-gradient(to left, #048bfa 0%, #0061b0 100%);
+}
+
+.receive-chat {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.input {
+    
+    padding-left: 10%;
+    width: 98%;
+    height: 65px;
+    border: 1px #33A3FF;
+    background-color: #33A3FF;
+
+}
+
+.btn {
+    width: 98%;
+    height: 65px;
+}
+
+.img-soft {
+    margin-top: 5%;
+}
+
+.content-soft {
+    margin-left: 11%;
+    font-size: 24px;
+    width: 59%;
+}   
+
+.img-double-squa {
+    position: absolute;
+    top: -18%;
+    left: 65%;
+    opacity: 0.6;
+}
+
+.text-right {
+    padding-right: 6% !important;
+}
+
+.software {
+    font-size: 96px;
+    font-weight: 700;
+    color: #0061B0;
+
+}
+
+.dev2 {
+    margin-top: -8%;
+    font-size: 96px;
+    color: #918B8B;
+}
+
+.img-fixed {
+    width: 70%;
+    margin-top: -88%;
+    margin-left: 17%;
+}
+
+.img-line1 {
+    margin-top: -17%;
+    margin-left: -1%;
+}
+
+.img-mid1 {
+    margin-top: -75%;
+    margin-left: 4%;
+}
+
+
+.img-team {
+    width: 39%;
+    margin-top: -59%;
+    margin-left: 33%;
+}
+
+.img-services {
+    width: 70%;
+    margin-top: -88%;
+    margin-left: 17%;
+}
+
+.squa-part {
+    margin-top: 30%;
+    margin-left: 78%;
+}
+
+
+
