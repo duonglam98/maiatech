@@ -150,18 +150,18 @@ nav {
 }
 
 .rounded {
-    width: 89%;
-    height: 1278px;
-    left: 6%;
+    width: 58%;
+    height: 972px;
+    left: 34%;
     position: absolute;
-    top: -5px;
+    top: 69px;
     z-index: 2;
 }
 
 .ball {
     position: absolute;
     top: 173px;
-    left: 26%;
+    left: 19%;
     z-index: 2;
 }
 
@@ -172,6 +172,15 @@ nav {
     z-index: 2;
     opacity: 0.4;
 }
+
+#inputEmail3 {
+    
+    border: none;
+    border-bottom: 2px solid #746F6F;
+      
+}
+
+
 
 .squa {
     position: absolute;
@@ -224,10 +233,42 @@ nav {
 
 .intro-content {
     width: 80%;
-    height: 900px; 
-    position: absolute; 
-    top: 372px; 
+    height: 500px;
+    position: absolute;
+    top: 102px;
     left: 10%;
+}
+
+.form-group {
+    margin-bottom: 7rem;
+}
+
+#floatingTextarea2 {
+    margin-bottom: 4rem;
+}
+
+.message {
+    margin-left: 44%;
+    margin-top: -3%;
+}
+
+.mess-for {
+    margin-right: 12%;
+    font-size: 96px;
+    font-weight: 400;
+    color: #0061B0;
+}
+
+.mess-maia {
+    color: #0061B0;
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: -7%;
+}
+
+.mess-hotline {
+    font-size: 18px;
+   
 }
 
 .img6 {
