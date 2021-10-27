@@ -360,6 +360,10 @@ nav {
     background-position: 100% 307%;
 }
 
+.flex-image > img {
+    display: none;
+}
+
 .process-image {
     display: flex;
     justify-content: space-around;
@@ -1804,12 +1808,14 @@ item.active {
     }
 
     .we_deal {
+        font-size: 7.5vw;
         line-height: 51px;
         padding-left: 54px;
         padding-right: 54px;
     }
 
     .cus_deal {
+        font-size: 7.5vw;
         line-height: 53px;
         padding-left: 54px;
         padding-right: 54px;
