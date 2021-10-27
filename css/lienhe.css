@@ -1,37 +1,55 @@
 @font-face {
-    font-family: 'Gilroy';
-    src: url(MaiAtech/css/fonts/Gilroy-Medium1.otf);
+    font-family: 'Gilroy-Black1';
+    src: url(/MaiAtech/fonts/Gilroy-Black1.otf);
+  }
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url(/MaiAtech/fonts/OpenSans-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Gilroy-Regular1';
+    src: url(/MaiAtech/fonts/Gilroy-Regular1.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold1';
+    src: url(/MaiAtech/fonts/Gilroy-Semibold1.otf);
+}
+
+
 
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .header {
-    width: 100%;
-    background-image: url(/MaiAtech/img/home-page/header-bg.jpg);
-    background-size: 100% 64.6%;
-    background-repeat: no-repeat;
+    background-image: url(/MaiAtech/img/Line3.png), url(/MaiAtech/img/Line4.png), url(/MaiAtech/img/home-page/header-bg.jpg);
+    background-size: 10% 19%, 5% 11%, 100% 66.7%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 100% 0%, 0% 21%;
     color: white;
 }
 
 nav {
+    font-family: 'OpenSans-Regular';
     width: 100%;
     height: 200px;
 }
 
 .navbar-nav {
     position: absolute;
-    left: 56%;
+    left: 54%;
     top: 74px;
     z-index: 3;
 }
 
 .navbar-nav li {
-    padding-right: 37px;
+    padding-right: 48px;
 }
-
 
 .navbar-nav li a {
     color: white !important;
@@ -45,186 +63,111 @@ nav {
     color: rgb(31, 184, 211) !important;
 }
 
-.navbar-branch {
-    position: absolute;
-    top: 78px;
-    left: 5%;
-}
-
-
 .nav-link {
     width: 10%;
 }
 
-.top-line3 {
-    position: absolute;
-    top: 0%;
-    right: 0;
-    left: 90%;
-}
-
-.line1{
-    position: absolute;
-    top: 287px;
-    left: -148px;
-}
-
-.text-logo {
-    position: absolute;
-    top: 39px;
-    left: 10%;
-    font-size: 1vw;
-}
-
-.img0 {
-    margin-top: 1px;
-}
-
 .set_heigh {
-    height: 2039px;
+    background: url(/MaiAtech/img/Rectangle461.png);
+    background-position: 14% 26%;
+    background-repeat: no-repeat;
+    background-size: 6%;
 }
 
 .slogan {
-    height: 800px;
+    padding: 25px;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 7%;
 }
 
-.img1 {
-    font-size: 23vw;
-    font-weight: 900;
-    position: absolute;
-    top: 245px;
-    left: -19%;
-}
-
-.img2 {
-    font-size: 6vw;
-    font-weight: 300;
-    position: absolute;
-    top: 354px;
-    left: 3%;
-}
-
-.img3 {
-    font-size: 9vw;
-    font-weight: 700;
-    position: absolute;
-    top: 482px;
-    left: 3%;
-}
-
-.img4 {
-    position: absolute;
-    top: 642px;
-    left: -75px;
-    max-width: 83%;
-}
-
-.mobile-circle {
+.line1 {
+    margin-left: -7%;
     display: none;
 }
 
+.img0 {
+    margin-left: 70px;
+}
+
+.img1 {
+    font-family: 'Gilroy-Black1';
+    font-size: 21.6vw;
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: -19.3%;
+    bottom: 0;
+}
+
+
+.img2 {
+    font-family: 'Gilroy-Regular1';
+    font-size: 6.97vw;
+    font-weight: 350;
+    text-align: left;
+}
+
+.img3 {
+    font-family: 'Gilroy-Semibold1';
+    font-size: 11.43vw;
+    font-weight: 700;
+    text-align: left;
+    line-height: 52%;
+}
+
+.back-slogan {
+    background: url(/MaiAtech/img/Rectangle46.png);
+    background-repeat: no-repeat;
+    background-size: 70.8% 6%;
+    background-position: 63% 101%;
+}
+
 .foll {
-    width: 23%;
-    height: 45px;
+    width: 14%;
+    height: 43px;
     color: #037EE3;
     background-color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     border: 1px solid #124cce;
-    border-radius: 1px;
-    margin-left: 52%;
-    margin-top: 678px;
+    border-radius: 2px;
+    margin-left: 80.6%;
 }
 
 .social {
-    margin-top: 29px;
-    margin-left: 51%;
+    margin-left: 83.3%;
+    margin-top: 2%;
 }
 
 .social a {
-    padding: 2%;
+    padding-right: 36px;
 }
 
-.twit {
-    padding-right: 15px;
-    padding-left: 15px;
+.social a img {
+    width: 28px;
 }
 
-
-.content {
-    width: 100%;
-    height: 1300px;
-    position: absolute;
-    left: -1%;
-}
-
-.img5 {
-    margin-top: 44%;
-    margin-left: -8%;
-}
-
-.rounded {
-    width: 51%;
-    height: 972px;
-    z-index: 2;
-    padding-top: 5%;
-    margin-top: 3%;
-}
-
-.width-input {
-    width: 70%;
-    margin-left: 14%;
-}
-
-.ball {
-    margin-left: 41%;
-    margin-top: 32%;
-}
-
-.ball-couple {
-    margin-top: 43%;
-    margin-left: 38%;
-}
-
-.line-couple {
-    margin-top: -122%;
-    margin-left: -4%;
-    height: 722px;
-}
-
-#inputEmail3 {
-    
-    border: none;
-    border-bottom: 2px solid #746F6F;
-      
-}
 .null-squa-mobile {
     display: none;
 }
 
 .null-squa {
     opacity: 0.1;
-    width: 30%;
-    max-width: 100%;
-    margin-left: 75%;
-    margin-top: 13%;
+    width: 227px;
+    margin-left: 34.8%;
 }
 
-.squa {
-    position: absolute;
-    top: 562px;
-    left: 45%;
-    width: 14%;
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: white;
+    border-bottom: 2px solid rgb(11, 12, 12);
+    outline: none;
 }
-
-.line1 {
-    position: absolute;
-    top: 287px;
-    left: -15px;
-}
-
 
 .intro-maia {
     width: 70%; 
@@ -234,32 +177,12 @@ nav {
     top: 92px;
 }
 
-.introdu {
-    width: 480px;
-    height: 115px;
-    position: absolute;
-    color: #0061B0;
-    font-size: 96px;
-    top: -8px;
-    left: 27%;
-
-}
-
-.maia {
-    width: 480px;
-    height: 115px;
-    position: absolute;
-    color: #0061B0;
-    font-size: 96px;
-    font-weight: 700;
-    top: 83px;
-    left: 41%;
-}
-
 .intro-content {
-    width: 80%;
-    height: 1070px;
-    padding-top: 21%;
+    width: 82%;
+    height: 1108px;
+    padding-top: 17%;
+    padding-left: 13%;
+    padding-right: 10%;
 }
 
 .form-group {
@@ -271,22 +194,31 @@ nav {
     max-width: 87% !important;
 }
 
-#floatingTextarea2 {
+.form-textarea label {
     font-size: 21px;
     font-weight: 700;
     color: #0061B0;
-    background: #b1dbff;
 }
+
+textarea {
+    width: 100%;
+    height: 200px !important;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    background-color: #b0d4f3 !important;
+    font-size: 16px;
+    resize: none;
+  }
 
 .form-submit {
     background: linear-gradient(to left, #048bfa 0%, #0061b0 100%);
     border-color: #007bff;
     border-radius: 2px;
-    width: 24%;
+    width: 34%;
     color: #FFF;
-    height: 43px;
-    margin-top: 4%;
-    margin-left: 15%;
+    height: 40px;
+    margin-top: 11%;
 }
 
 .img-slogan {
@@ -294,31 +226,43 @@ nav {
 }
 
 .sub-content {
-    height: 1085px;
+    justify-content: flex-end;
+    padding-right: 0%;
+    background: url(/MaiAtech/img/Ellipse1.png), url(/MaiAtech/img/Rectangle44.png), url(/MaiAtech/img/Ellipse3.png), url(/MaiAtech/img/Line21.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 26% 18%, 0% 19%, 8% 62%, 0% 69%;
+    background-size: 11% 11%, 11% 20%, 27% 24%, 45% 44%;
+}
+
+.form-content {
+    width: 68%;
 }
 
 .message {
-    margin-left: 7%;
+    padding-right: 1%;
+    width: 67%;
+    color: black;
 }
 
 .mess-for {
     margin-right: 16%;
-    font-size: 96px;
+    font-size: 9vw;
     font-weight: 400;
     color: #0061B0;
 }
 
 .mess-maia {
     color: #0061B0;
-    font-size: 96px;
+    font-size: 10vw;
     font-weight: 700;
-    margin-top: -4%;
     margin-right: 9%;
+    line-height: 41px;
 }
 
 .mess-hotline {
     font-size: 18px;
     margin-right: 9%;
+    line-height: 77px;
 }
 
 .img6 {
@@ -333,15 +277,26 @@ nav {
     margin-top: 97px;
 }
 
+
 .footer {
-    padding-top: 142px;
-    background: url(/MaiAtech/img/home-page/footer-bg.jpg) no-repeat;
-    background-size: 100% 100%;
+    background: 
+    url(/MaiAtech/img/home-page/Rectangle1211.png), 
+    url(/MaiAtech/img/home-page/Ellipse3.png), 
+    url(/MaiAtech/img/home-page/Group114.png), 
+    url(/MaiAtech/img/home-page/Primary.png), 
+    url(/MaiAtech/img/home-page/Rectangle23.png), 
+    url(/MaiAtech/img/home-page/MaskGroup6.png), 
+    url(/MaiAtech/img/home-page/footer-bg.jpg);
+    background-size: 5% 11%, 8% 11%, 7% 6%, 4% 4%, 100% 38%, 100% 38%, 100% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 12.5%, 0% 32%, 0% 32%;
     color: white;
+    padding-top: 29%;
+    margin-top: -9%;
 }
 
 .img43 {
-    margin-left: -2%;
+    display: none;
 }
 
 .img50 {
@@ -351,8 +306,6 @@ nav {
 
 .footer-img {
     position: relative;
-    padding-top: 48px;
-    padding-bottom: 44%;
 }
 
 .img44 {
@@ -377,46 +330,20 @@ nav {
     display: none;
 }
 
-.deal {
-    padding-top: 14%;
-    position: absolute;
-    z-index: 3;
-    width: 98%;
-}
-
 .we_deal {
-    margin-top: -5%;
-    margin-left: 31%;
-    font-size: 2.5vw;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 2px;
 }
 
 .cus_deal {
-    margin-left: -44%;
-    margin-top: -2%;
-    font-size: 2.5vw;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 53px;
 }
-
-/* .we_deal {
-    position: absolute;
-    z-index: 3;
-    font-size: 1.5vw;
-    left: 43%;
-}
-
-.cus_deal {
-    position: absolute;
-    z-index: 3;
-    top: 68%;
-    font-size: 1.5vw;
-    left: 37%;
-} */
 
 .your {
     font-size: 5.5vw;
-    margin-top: 5%;
-    margin-left: -48%;
     font-weight: 700;
     line-height: 38px;
 }
@@ -424,7 +351,7 @@ nav {
 .solut {
     font-size: 5.5vw;
     font-weight: 700;
-    margin-left: 32%;
+    line-height: 94px;
 }
 
 .contact {
@@ -435,23 +362,24 @@ nav {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,2);
     font-size: 14px;
     font-weight: 600;
-    text-align: center;
     border: 1px solid #124cce;
     border-radius: 5px;
-    margin-top: 12%;
-    margin-left: -24%;
 }
 
 .img46 {
     max-width: 100%;
     height: 97px;
-    margin-top: 15%;
-    margin-left: 27%;
 }
 
 .footer_item {
     position: relative;
-    padding-bottom: 3%;
+    padding-bottom: -6%;
+    padding-top: 12%;
+}
+
+.left-logo {
+    padding-top: 22%;
+    padding-left: 18%;
 }
 
 .img47 {
@@ -459,23 +387,11 @@ nav {
     margin-left: -3%;
 }
 
-.img48 {
-    /* position: absolute; */
-    margin-left: 20%;
-    margin-top: 13%;
-}
-
-.text-logo2 {
-    margin-top: -18%;
-    margin-left: 36%;
-    /* line-height: 18px; */
-}
-
 .footer_social {
     display: flex;
-    width: 30%;
+    width: 48%;
     justify-content: space-around;
-    margin-left: 37%;
+    margin-left: 26%;
 }
 
 .footer_contactmenu {
@@ -485,7 +401,8 @@ nav {
 .footer_contact {
     padding-top: 17%;
     padding-right: -25%;
-    max-width: 32%;
+    max-width: 34%;
+    padding-left: 6%;
 }
 
 .footer_contact h5 {
@@ -499,8 +416,6 @@ nav {
 .footer_menu {
     padding-top: 16%;
     font-size: 1.17vw;
-    /* list-style-type: none; */
-    /* color: #FFF; */
     padding-left: 19%;
 }
 
@@ -515,8 +430,8 @@ nav {
 }
 
 .img49 {
-    margin-top: -175%;
-    margin-left: 254%;
+    max-width: 114%;
+    padding-top: 50%;
 }
 
 .img51 {
@@ -529,135 +444,224 @@ nav {
     margin-top: 12%;
     font-weight: 350;
     font-size: 0.9rem;
+    padding-left: 2%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1200px)  and (max-width: 1440px) {
     .header {
-        background-size: 100% 63%;
-    }
-
-    .text-logo {
-        top: 39px;
-        left: 10%;
-        font-size: 1.5vw;
-    }
-
-    .navbar-branch {
-        top: 43px;
+        background-size: 10% 19%, 5% 11%, 100% 63.7%;
     }
 
     .navbar-nav {
-        left: 52%;
-        top: 47px;
-    }
-
-    .top-line3 {
-        left: 85%;
+        left: 50%;
     }
 
     .null-squa {
-        top: -5px;
-        left: 68%;
-        width: 171px;
+        margin-left: 30%;
     }
 
-    .img1 {
-        font-size: 26vw;
-        top: 138px;
-        left: -24%;
+    .back-slogan {
+        background-size: 71.8% 6%;
+        background-position: 60.3% 99%;
     }
 
-    .img2 {
-        font-size: 7vw;
-        top: 213px;
-        left: 1%;
+    .sub-content {
+        padding-right: 0%;
     }
 
-    .img3 {
-        font-size: 11vw;
-        top: 305px;
-        left: 1%;
+    .footer {
+        background-size: 5% 11%, 8% 11%, 7% 6%, 5% 4%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 10.5%, 0% 32%, 0% 32%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        background-size: 10% 19%, 8% 11%, 100% 59.7%;
+        background-position: 100% 0%, 0% 19%;
     }
 
-    .img4 {
-        top: 436px;
-        left: -14%;
-        max-width: 100%;
+    .navbar-nav {
+        left: 50%;
+    }
+
+    .navbar-nav li {
+        padding-right: 39px;
+    }
+
+    .null-squa {
+        margin-left: 26%;
+    }
+
+    .set_heigh {
+        background-position: 14% 20%;
+    }
+
+    .back-slogan {
+        background-size: 72.4% 6%;
+        background-position: 61.5% 98%;
     }
 
     .foll {
-        width: 34%;
-        margin-top: 102%;
+        width: 16%;
     }
 
-    .ball-couple {
-        margin-top: 43%;
-        margin-left: 4%;
+    .social {
+        margin-left: 81.8%;
     }
 
-    .line-couple {
-        margin-top: -149%;
-        margin-left: -18%;
-        height: 691px;
+    .social a {
+        padding-right: 23px;
     }
 
-    .img43 {
-        display: none;
+    .footer {
+        background-size: 6% 12%, 10% 11%, 9% 5%, 6% 4%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 74%, 100% 72%, 87% 55.8% ,90% 12.5%, 0% 32%, 0% 32%;
+        padding-top: 46%;
+        margin-top: -13%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+        background-size: 10% 19%, 9% 9%, 100% 56.7%;
+        background-position: 100% 0%, 0% 20%;
     }
 
-    .img50 {
-        margin-top: 1%;
+    .null-squa {
+        width: 201px;
+        margin-left: 23.8%;
     }
 
-    .img44 {
-        width: 103.4%;
-        left: -2%;
-        top: 10%;
+    .back-slogan {
+        background-size: 72.8% 6%;
+        background-position: 62% 95%;
     }
 
-    .img45 {
-        width: 103%;
-        left: -2%;
-        top: 10.3%;
+    .set_heigh {
+        background-position: 14% 18%;
     }
 
-    .img46 {
-        margin-top: -6%;
-        margin-left: 79%;
+    .img1 {
+        top: -16.3%;
+    }
+
+    .foll {
+        width: 22%;
+        margin-left: 74.6%;
+    }
+
+    .social {
+        margin-left: 76.3%;
+    }
+
+    .social a img {
+        width: 28px;
+    }
+
+    .sub-content {
+        background-position: 26% 15%, 0% 16%, 5% 49%, 0% 65%;
+        background-size: 14% 8%, 11% 16%, 31% 17%, 61% 51%;
+    }
+
+    .footer {
+        background-size: 7% 13%, 11% 11%, 11% 5%, 7% 4%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 77%, 100% 74%, 87% 55.7% ,93% 10.5%, 0% 32%, 0% 32%;
+        padding-top: 59%;
+        margin-top: -17%;
+    }
+
+    .left-logo {
+        padding-top: 22%;
+        padding-left: 11%;
+    }
+
+    .footer_menu {
+        font-size: 2.17vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        background-size: 10% 19%, 8% 11%, 100% 55%;
+        background-position: 100% 0%, 0% 19%;
+    }
+
+    .set_heigh {
+        background-position: 14% 19%;
+        background-size: 8%;
+    }
+
+    .null-squa {
+        width: 200px;
+        margin-left: 19.8%;
+    }
+
+    .img1 {
+        top: -17.3%;
+    }
+
+    .back-slogan {
+        background-size: 72.8% 6%;
+        background-position: 63% 96%;
+    }
+
+    .foll {
+        width: 24%;
+        font-size: 10px;
+        margin-left: 72.9%;
+    }
+
+    .social {
+        margin-left: 77.3%;
+        margin-top: 2%;
+    }
+
+    .social a {
+        padding-right: 23px;
+    }
+
+    .sub-content {
+        justify-content: center;
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    .footer {
+        background-size: 8% 12%, 11% 11%, 10% 4%, 7% 4%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 74%, 100% 70%, 87% 56.2% ,90% 12.5%, 0% 32%, 0% 32%;
+        padding-top: 59%;
+        margin-top: -16%;
+    }
+
+    .left-logo {
+        padding-left: 10%;
+    }
+
+    .footer_social {
+        width: 57%;
+        margin-left: 23%;
+    }
+
+    .footer_menu {
+        font-size: 2vw;
     }
 
     
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+
     .header {
-        background-size: 100% 34%;
+        background-size: 10% 19%, 8% 11%, 100% 52%;
+        background-position: 100% 0%, -12%;
     }
 
-    nav {
-        height: 165px !important;
-    }
-
-    .navbar-branch {
-        top: 23px;
-        display: flex;
-    }
-
-    .img0 {
-        margin-top: 10px;
-        margin-left: 49%;
-        width: 54%;
-    }
-
-    .text-logo {
-        left: 62%;
-        font-size: 2.4vw;
-        top: 79%;
-    }
-    
-    .top-line3 {
-        left: 81%;
-        height: 136%;
+    .set_heigh {
+        background-position: 14% 12%;
+        background-size: 10%;
     }
 
     .null-squa {
@@ -666,257 +670,101 @@ nav {
 
     .null-squa-mobile {
         display: block;
-        margin-top: -35%;
-        margin-left: 40%;
-    }
-
-    .line1 {
-        display: none;
-    }
-
-    .img1 {
-        font-size: 26vw;
-        top: 44px;
-        left: -40%;
-    }
-
-    .img2 {
-        font-size: 8vw;
-        top: 69px;
-        left: -14%;
-    }
-
-    .img3 {
-        font-size: 12vw;
-        top: 104px;
-        left: -14%;
-    }
-
-    .img4 {
-        display: none;
-    }
-
-    .foll {
-        margin-left: -26%;
-        width: 111%;
-        margin-top: 119%;
-        height: 42px;
-        font-size: 10px;
-    }
-
-    .social {
-        margin-top: 29px;
-        margin-left: -3%;
-    }
-
-    .squa {
-        top: 20%;
-        width: 17%;
-        left: 25%;
-    }
-
-    .mobile-circle {
-        display: block;
-        margin-top: 87%;
-        margin-left: 23%;
-        width: 35%;
-    }
-
-    .slogan {
-        height: 305px;
-    }
-
-    .set_heigh {
-        height: 1562px;
-    }
-
-    .img5 {
-        margin-top: 75%;
-        margin-left: -91%;
-    }
-
-    .ball {
-        margin-left: 81%;
-        margin-top: 20%;
-    }
-
-    .line-couple {
-        margin-top: -397%;
-        margin-left: -50%;
-        height: 425px;
-    }
-
-    .ball-couple {
-        margin-top: 72%;
-        margin-left: 40%;
-        height: 278px;
-    }
-
-    .intro-content {
-        width: 141%;
-        padding-top: 22%;
-        margin-left: -47%;
-        margin-top: -1%;
-    }
-
-    .ml-auto, .mx-auto {
-        margin-left: -49% !important;
-    }
-
-    .mess-for {
-        font-size: 47px;
-    }
-
-    .mess-maia {
-        font-size: 62px;
-        margin-top: -11%;
-        margin-right: 15%;
-    }
-
-    .mess-hotline {
-        margin-right: 15%;
-    }
-
-    .footer {
-        background: url(/MaiAtech/img/home-page/Vector.png) no-repeat;
-        margin-top: 13%;
-    }
-
-    .img50 {
-        display: none;
-    }
-
-    .img43 {
-        margin-left: -5%;
-        height: 6%;
-    }
-
-    .img44 {
-        display: none;
-    }
-
-    .img45 {
-        display: none;
-    }
-
-    .img44_mobile {
-        display: block;
-        margin-left: -5%;
-        width: 109%;
-        /* max-width: 100%; */
-        margin-top: 4%;
-    }
-
-    .img45_mobile {
-        display: block;
-        width: 109%;
-        position: absolute;
-        top: 62px;
-        left: -15px;
-    }
-
-    .we_deal {
-        margin-top: -327%;
-        margin-left: 8%;
-        font-size: 9.5vw;
-        font-weight: 200;
-    }
-
-    .cus_deal {
-        margin-left: 12%;
-        margin-top: -297%;
-        font-size: 9.5vw;
-        font-weight: 200;
-        text-align: center;
-    }
-
-    .your {
-        font-size: 17.5vw;
-        margin-top: -227%;
-        margin-left: 10%;
-        font-weight: 700;
-        line-height: 84px;
-        text-align: center;
-    }
-
-    .solut {
-        font-size: 16.5vw;
-        font-weight: 700;
-        margin-left: 12%;
-        margin-top: -180%;
-        text-align: center;
-    }
-
-    .contact {
-        margin-top: -104%;
-        margin-left: 28%;
-    }
-
-    .img46 {
-        margin-top: -47%;
-        margin-left: 69%;
-    }
-
-    .img47 {
-        margin-top: 82%;
-        margin-left: -7%;
-        height: 138px;
-    }
-
-    .deal {
-        padding-top: 18%;
-    }
-
-    .footer_item {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .img48 {
-        margin-left: 2%;
-        margin-top: -189%;
-    }
-
-    .img51 {
-        margin-top: 37%;
         margin-left: 19%;
     }
 
-    .copyright {
-        margin-left: -15%;
+    .img1 {
+        font-size: 23.6vw;
     }
 
-    .text-logo2 {
-        margin-top: -152%;
-        margin-left: 22%;
-        /* line-height: 18px; */
+    .back-slogan {
+        background-size: 75.8% 6%;
+        background-position: 67% 91%;
     }
 
-    .footer_social {
-        width: 52%;
-        margin-left: 21%;
+    .slogan {
+        padding: 13px;
+        padding-bottom: 15%;
+}
+
+    .foll {
+        width: 40%;
+        margin-left: 53.9%;
+    }
+
+    .social {
+        margin-left: 60.3%;
+    }
+
+    .intro-content {
+        height: 990px;
+    }
+
+    .footer {
+        background-image: none;
+    }
+    
+    .footer_mobile {
+        background: url(/MaiAtech/img/home-page/Rectangle1211.png), url(/MaiAtech/img/home-page/Ellipse3.png), url(/MaiAtech/img/home-page/Group114.png), url(/MaiAtech/img/home-page/Rectangle23_1.png), url(/MaiAtech/img/home-page/MaskGroup7.png), url(/MaiAtech/img/home-page/Vector.png);
+        background-size: 15% 9%, 22% 7%, 16% 3%, 100% 49%, 100% 49%, 100% 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 0% 91%, 100% 90%, 87% 54.3% , 0% 13%, 0% 13%;
+        color: white;
+        padding-top: 41%;
+        margin-top: 2px;
+    }
+
+    .we_deal {
+        line-height: 51px;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .cus_deal {
+        line-height: 53px;
+        padding-left: 54px;
+        padding-right: 54px;
+        margin-top: -19px;
+    }
+
+    .your {
+        font-size: 14.5vw;
+        line-height: 82px;
+    }
+
+    .solut {
+        font-size: 15.5vw;
+        line-height: 84px;
+    }
+
+    .footer_item {
+        padding-top: 60%;
     }
 
     .left-logo {
-        margin-top: 5%;
-        margin-left: 2%;
-    }
-
-    .footer_contactmenu {
-        display: flex;    
-        flex-direction: column;
+        padding-top: 43%;
+        margin-left: -48px;
     }
 
     .footer_contact {
-        max-width: 69%;
-        margin-left: 16%;
-        font-size: 4vw;
+        max-width: 66%;
+    }
+
+    .footer_contactmenu {
+        flex-direction: column;
+        padding-left: 71px;
     }
 
     .footer_menu {
-        padding-top: 26%;
-        font-size: 4.17vw;
-        padding-left: 6%;
+        font-size: 3.57vw;
+        margin-left: -23%;
     }
 
+    .img51 {
+        margin-left: 36%;
+    }
+
+    .copyright {
+        margin-left: -10%;
+    }
 }

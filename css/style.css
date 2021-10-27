@@ -1,7 +1,29 @@
-@font-face {
+/* @font-face {
     font-family: 'Gilroy';
-    src: url(MaiAtech/css/fonts/Gilroy-Medium1.otf);
+    src: url(MaiAtech/fonts/Gilroy-Medium1.otf);
+} */
+
+@font-face {
+    font-family: 'Gilroy-Black1';
+    src: url(/MaiAtech/fonts/Gilroy-Black1.otf);
+  }
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url(/MaiAtech/fonts/OpenSans-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Gilroy-Regular1';
+    src: url(/MaiAtech/fonts/Gilroy-Regular1.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold1';
+    src: url(/MaiAtech/fonts/Gilroy-Semibold1.otf);
+}
+
+
 
 body {
     margin: 0;
@@ -10,14 +32,15 @@ body {
 }
 
 .header {
-    background-image: url(/MaiAtech/img/Line3.png), url(/MaiAtech/img/home-page/header-bg.jpg);
-    background-size: 10% 19%, 100% 72.7%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: top right;
+    background-image: url(/MaiAtech/img/Line3.png), url(/MaiAtech/img/Line4.png), url(/MaiAtech/img/home-page/header-bg.jpg);
+    background-size: 10% 19%, 5% 11%, 100% 63.7%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 100% 0%, 0% 21%;
     color: white;
 }
 
 nav {
+    font-family: 'OpenSans-Regular';
     width: 100%;
     height: 200px;
 }
@@ -49,62 +72,63 @@ nav {
     width: 10%;
 }
 
-.line1 {
-    margin-left: 1%;
-}
-
-.img0 {
-    margin-top: 1px;
-}
-
 .set_heigh {
-    /* height: 587px; */
+    background: url(/MaiAtech/img/Rectangle461.png);
+    background-position: 14% 21%;
+    background-repeat: no-repeat;
+    background-size: 6%;
 }
 
 .slogan {
-    padding-top: 2%;
+    padding: 25px;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.set_one {
-    /* padding-left: 12%; */
+.line1 {
+    margin-left: -7%;
+    display: none;
+}
+
+.img0 {
+    margin-left: 70px;
 }
 
 .img1 {
-    font-size: 304px;
+    font-family: 'Gilroy-Black1';
+    font-size: 21.6vw;
     font-weight: 900;
     position: absolute;
     right: 0;
-    top: -25%;
+    top: -19.3%;
     bottom: 0;
 }
 
-.set_believe {
-    /* padding-top: 66px; */
-}
 
 .img2 {
-    font-size: 6.5vw;
-    font-weight: 300;
+    font-family: 'Gilroy-Regular1';
+    font-size: 6.97vw;
+    font-weight: 350;
     text-align: left;
 }
 
 .img3 {
-    font-size: 10.5vw;
+    font-family: 'Gilroy-Semibold1';
+    font-size: 11.43vw;
     font-weight: 700;
     text-align: left;
-    line-height: 62px;
+    line-height: 52%;
 }
 
-.img4 {
-    width: 713px;
-    position: absolute;
-    top: 97%;
-    left: 45%;
-    bottom: 0;
+.back-slogan {
+    background: url(/MaiAtech/img/Rectangle46.png);
+    background-repeat: no-repeat;
+    background-size: 70.8% 6%;
+    background-position: 63% 101%;
 }
 
 .foll {
-    width: 21%;
+    width: 14%;
     height: 43px;
     color: #037EE3;
     background-color: #FFFFFF;
@@ -114,12 +138,11 @@ nav {
     text-transform: uppercase;
     border: 1px solid #124cce;
     border-radius: 2px;
-    /* margin-top: -1%; */
-    margin-left: 71%;
+    margin-left: 80.6%;
 }
 
 .social {
-    margin-left: 77%;
+    margin-left: 83.3%;
     margin-top: 2%;
 }
 
@@ -141,22 +164,13 @@ nav {
     margin-left: 34.8%;
 }
 
-.squa {
-    position: absolute;
-    top: -115px;
-    left: 68%;
-    width: 22%;
-}
-
 .content-border {
     background: url(/MaiAtech/img/Group87.png), url(/MaiAtech/img/Ellipse1.png), url(/MaiAtech/img/Rectangle44.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 32% 36%, 9% 10%, 9% 15%;
     background-position: 0% 70%, 23% 27%,0% 31%;
     position: relative;
-    height: 1564px;
     color: black;
-    padding-top: 10%;
 }
 
 .img5 {
@@ -220,22 +234,21 @@ nav {
 
 .introdu {
     color: #0061B0;
-    font-size: 96px;
+    font-size: 6vw;
 }
 
 .maia {
     color: #0061B0;
-    font-size: 96px;
+    font-size: 6vw;
     font-weight: 700;
     margin-top: -6%;
     margin-left: 20%;
 }
 
-
 .rounded div {
     font-size: 1.2vw;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2.95%;
+    padding-right: 8%;
 }
 
 .img6 {
@@ -261,7 +274,8 @@ nav {
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 12.5%, 0% 32%, 0% 32%;
     color: white;
-    padding-top: 28%;
+    padding-top: 29%;
+    margin-top: -9%;
 }
 
 .img43 {
@@ -370,7 +384,8 @@ nav {
 .footer_contact {
     padding-top: 17%;
     padding-right: -25%;
-    max-width: 32%;
+    max-width: 34%;
+    padding-left: 6%;
 }
 
 .footer_contact h5 {
@@ -412,6 +427,479 @@ nav {
     margin-top: 12%;
     font-weight: 350;
     font-size: 0.9rem;
+    padding-left: 2%;
+}
+
+/* Màn hình laptop hoặc desktop lớn*/
+@media only screen and (min-width: 1200px)  and (max-width: 1440px) {
+
+    .header {
+        background-size: 10% 19%, 9% 18%, 100% 70.7%;
+        background-position: 102.8% -6%, -3% 19%;
+    }
+
+    .navbar-nav {
+        left: 50%;
+    }
+
+    .set_heigh {
+        background: url(/MaiAtech/img/Rectangle461.png) 14% 20% / 6% no-repeat;
+    }
+
+    .null-squa {
+        margin-left: 33.8%;
+    }
+
+    .img1 {
+        font-size: 22.38vw;
+    }
+
+    .img3 {
+        line-height: 53%;
+    }
+
+    .line1 {
+        margin-left: -12%;
+    }
+
+    .slogan {
+        padding: 25px;
+    }
+
+    .back-slogan {
+        background-size: 72% 7%;
+        background-position: 60.2% 100%;
+    }
+
+    .foll {
+        margin-left: 75%;
+        width: 20%;
+    }
+
+    .social {
+        margin-left: 81.6%;
+    }
+
+    .social a {
+        padding-right: 30px;
+    }
+
+    .squa {
+        top: -17px;
+    }
+
+    .footer {
+        padding-top: 39%;
+    }
+
+}
+
+/* Màn hình máy tính bảng lớn hoặc máy tính màn hình trung bình */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header {
+        background-size: 10% 19%, 7% 12%, 100% 70.7%;
+        background-position: 100% 0%, 0% 25%;
+    }
+
+    .set_heigh {
+        background-position: 14% 24%;
+    }
+
+    .navbar-nav {
+        left: 51%;
+    }
+
+    .navbar-nav li {
+        padding-right: 33px;
+    }
+
+    .null-squa {
+        margin-left: 25.8%;
+        max-width: 100%;
+    }
+
+    .img1 {
+        font-size: 22.2vw;
+    }
+
+    .img3 {
+        line-height: 49%;
+    }
+
+    .slogan {
+        padding: 25px;
+    }
+
+    .back-slogan {
+        background-size: 71.8% 7%;
+        background-position: 62% 99%;
+    }
+
+    .foll {
+        width: 22%;
+        font-size: 13px;
+        margin-left: 74%;
+    }
+
+    .line1 {
+        margin-left: -18%;
+    }
+
+    .social {
+        margin-left: 80%;
+        margin-top: 2%;
+    }
+
+    .social a {
+        padding-right: 33px;
+    }
+
+    .social a img {
+        width: 26px;
+    }
+
+    .img6 {
+        margin-left: 36%;
+    }
+
+    .footer {
+        background-size: 5% 11%, 8% 11%, 8% 5%, 6% 4%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 79%, 100% 74%, 90% 55.6% ,91% 9.5%, 0% 32%, 0% 32%;
+        padding-top: 45%;
+    }
+}
+
+/* Màn hình máy tính bảng nhỏ hoặc máy tính màn hình nhỏ */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .header {
+        background-size: 10% 19%, 7% 12%, 100% 71.7%;
+        background-position: 100% 0%, 0% 25%;
+    }
+
+    .null-squa {
+        width: 176px;
+        margin-left: 26.8%;
+    }
+
+    .img1 {
+        font-size: 22.1vw;
+    }
+
+    .img3 {
+        line-height: 40%;
+    }
+
+    .slogan {
+        padding: 25px;
+    }
+
+    .back-slogan {
+        background-size: 70.4% 7%;
+        background-position: 65.7% 99%;
+    }
+
+    .line1 {
+        margin-left: -33%;
+        width: 50%;
+    }
+
+    .squa {
+        top: -37px;
+    }
+
+    .foll {
+        width: 34%;
+        font-size: 10px;
+        margin-left: 63%;
+    }
+
+    .social {
+        margin-left: 76%;
+    }
+
+    .social a {
+        padding-right: 26px;
+    }
+
+    .img6 {
+        margin-left: 31%;
+    }
+
+    .footer {
+        background-size: 9% 12%, 9% 8%, 7% 3%, 6% 3%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 79%, 100% 69%, 87% 56.5% ,90% 12.5%, 0% 32%, 0% 32%;
+        padding-top: 59%;
+        margin-top: -15%;
+    }
+
+    .end-slogan {
+        margin-left: 34%;
+    }
+
+    .left-logo {
+        padding-top: 28%;
+        padding-left: 10%;
+    }
+
+    .footer_menu {
+        font-size: 1.87vw;
+    }
+
+}
+
+/* Màn hình máy tính bảng rất nhỏ hoặc điện thoại di động */
+/* @media only screen and (min-width: 479px) and (max-width: 767px) { */
+
+@media only screen and (max-width: 767px) {
+    .header {
+        background-size: 10% 19%, 7% 12%, 100% 72.7%;
+        background-position: 100% 0%, 0% 25%;
+    }
+
+    .img1 {
+        top: -18.9%;
+    }
+
+    .img3 {
+        line-height: 38%;
+    }
+
+    .slogan {
+        padding: 25px;
+    }
+
+    .back-slogan {
+        background-size: 72.9% 6%;
+        background-position: 62.4% 97%;
+    }
+
+    .line1 {
+        margin-left: -30%;
+    }
+
+    .squa {
+        top: -29px;
+    }
+
+    .foll {
+        width: 28%;
+        height: 39px;
+        font-size: 12px;
+        margin-left: 69%;
+    }
+
+    .social {
+        margin-left: 75%;
+    }
+
+    .social a {
+        padding-right: 29px;
+    }
+
+    .social a img {
+        width: 26px;
+    }
+
+    .null-squa {
+        width: 199px;
+        margin-left: 23.8%;
+    }
+
+    .img6 {
+        margin-top: 16%;
+        margin-left: 29%;
+    }
+
+    .end-slogan {
+        margin-left: 33%;
+        margin-top: 2%;
+    }
+
+    .footer {
+        background-size: 8% 10%, 11% 10%, 7% 3%, 6% 3%, 100% 38%, 100% 38%, 100% 100%;
+        background-position: 0% 79%, 100% 79%, 87% 56.6% ,90% 14.5%, 0% 32%, 0% 32%;
+        padding-top: 59%;
+        margin-top: -19%;
+    }
+
+    .footer_item {
+        padding-top: 15%;
+    }
+
+    .left-logo {
+        padding-top: 21%;
+        padding-left: 11%;
+    }
+
+    .footer_social {
+        width: 60%;
+        margin-left: 21%;
+    }
+
+    .footer_contact {
+        max-width: 47%;
+    }
+
+    .footer_menu {
+        font-size: 1.87vw;
+        padding-left: 8%;
+    }
+}
+
+/* Điện thoại di động hoặc màn hình cực nhỏ */
+@media only screen and (max-width: 480px) {
+
+    .header {
+        background-size: 10% 19%, 7% 12%, 100% 55.7%;
+        background-position: 100% 0%, 0% 0%;
+    }
+
+    .set_heigh {
+        background-position: 14% 13%;
+        background-size: 10%;
+    }
+
+    .null-squa {
+        display: none;
+    }
+
+    .null-squa-mobile {
+        display: block;    
+        margin-left: 28%;
+    }
+
+    .img1 {
+        top: -15.9%;
+    }
+
+    .img3 {
+        line-height: 25%;
+    }
+
+    .slogan {
+        padding: 25px;
+    }
+
+    .back-slogan {
+        background: none;
+    }
+
+    .line1 {
+        margin-left: -70%;
+    }
+
+    .foll {
+        width: 37%;
+        height: 37px;
+        font-size: 15px;
+        margin-left: 56%;
+    }
+
+    .social {
+        margin-left: 63%;
+        margin-top: 3%;
+    }
+
+    .social a img {
+        width: 21px;
+    }
+
+    .squa {
+        width: 37%;
+    }
+
+    .introdu {
+        font-size: 63px;
+    }
+
+    .maia {
+        font-size: 70px;
+    }
+
+    .rounded {
+        height: 103%;
+    }
+
+    .rounded div {
+        font-size: 2.2vw;
+    }
+
+    .img6 {
+        margin-left: 17%;
+    }
+
+    .end-slogan {
+        margin-left: 25%;
+    }
+
+    .footer {
+        background-image: none;
+    }
+    
+    .footer_mobile {
+        background: url(/MaiAtech/img/home-page/Rectangle1211.png), url(/MaiAtech/img/home-page/Ellipse3.png), url(/MaiAtech/img/home-page/Group114.png), url(/MaiAtech/img/home-page/Rectangle23_1.png), url(/MaiAtech/img/home-page/MaskGroup7.png), url(/MaiAtech/img/home-page/Vector.png);
+        background-size: 15% 9%, 22% 7%, 16% 3%, 100% 49%, 100% 49%, 100% 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 0% 91%, 100% 90%, 87% 54.3% , 0% 13%, 0% 13%;
+        color: white;
+        padding-top: 41%;
+    }
+
+    .we_deal {
+        line-height: 51px;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    .cus_deal {
+        line-height: 53px;
+        padding-left: 54px;
+        padding-right: 54px;
+        margin-top: -19px;
+    }
+
+    .your {
+        font-size: 14.5vw;
+        line-height: 82px;
+    }
+
+    .solut {
+        font-size: 15.5vw;
+        line-height: 84px;
+    }
+
+    .footer_item {
+        padding-top: 60%;
+    }
+
+    .left-logo {
+        padding-top: 43%;
+        margin-left: -48px;
+    }
+
+    .footer_contact {
+        max-width: 66%;
+    }
+
+    .footer_contactmenu {
+        flex-direction: column;
+        padding-left: 71px;
+    }
+
+    .footer_menu {
+        font-size: 3.57vw;
+        margin-left: -13%;
+    }
+
+    .img51 {
+        margin-left: 36%;
+    }
+
+    .copyright {
+        margin-left: -10%;
+    }
+    
 }
 
 
