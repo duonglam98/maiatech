@@ -18,6 +18,16 @@ src: url(/MaiAtech/fonts/OpenSans-Regular.ttf);
     src: url(/MaiAtech/fonts/Gilroy-Semibold1.otf);
 }
 
+@font-face {
+    font-family: 'Gilroy-Light1';
+    src: url(/MaiAtech/fonts/Gilroy-Light1.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium1';
+    src: url(/MaiAtech/fonts/Gilroy-Medium1.otf);
+}
+
 
 
 body {
@@ -246,14 +256,14 @@ textarea {
 
 .mess-for {
     margin-right: 16%;
-    font-size: 9vw;
-    font-weight: 400;
+    font-size: 8vw;
+    font-weight: 350;
     color: #0061B0;
 }
 
 .mess-maia {
     color: #0061B0;
-    font-size: 10vw;
+    font-size: 7vw;
     font-weight: 700;
     margin-right: 9%;
     line-height: 41px;
@@ -288,11 +298,12 @@ textarea {
     url(/MaiAtech/img/home-page/MaskGroup6.png), 
     url(/MaiAtech/img/home-page/footer-bg.jpg);
     background-size: 5% 11%, 8% 11%, 7% 6%, 4% 4%, 100% 38%, 100% 38%, 100% 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 12.5%, 0% 32%, 0% 32%;
     color: white;
     padding-top: 29%;
     margin-top: -9%;
+    font-family: 'Gilroy-Light1';
 }
 
 .img43 {
@@ -346,12 +357,14 @@ textarea {
     font-size: 5.5vw;
     font-weight: 700;
     line-height: 38px;
+    font-family: 'Gilroy-Medium1';
 }
 
 .solut {
     font-size: 5.5vw;
     font-weight: 700;
     line-height: 94px;
+    font-family: 'Gilroy-Medium1';
 }
 
 .contact {
