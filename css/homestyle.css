@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Gilroy-Black1';
-    src: url(MaiAtech/fonts/Gilroy-Black1.otf);
+    src: url(../fonts/Gilroy-Black1.otf);
   }
 
 @font-face {
 font-family: 'OpenSans-Regular';
-src: url(MaiAtech/fonts/OpenSans-Regular.ttf);
+src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Gilroy-Regular1';
-    src: url(MaiAtech/fonts/Gilroy-Regular1.otf);
+    src: url(../fonts/Gilroy-Regular1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Semibold1';
-    src: url(MaiAtech/fonts/Gilroy-Semibold1.otf);
+    src: url(../fonts/Gilroy-Semibold1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Light1';
-    src: url(MaiAtech/fonts/Gilroy-Light1.otf);
+    src: url(../fonts/Gilroy-Light1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Medium1';
-    src: url(MaiAtech/fonts/Gilroy-Medium1.otf);
+    src: url(../fonts/Gilroy-Medium1.otf);
 }
 
 body {
@@ -35,7 +35,7 @@ body {
 }
 
 .header {
-    background-image: url(MaiAtech/img/Line3.png), url(MaiAtech/img/Line4.png), url(MaiAtech/img/home-page/header-bg.jpg), url(MaiAtech/img/home-page/Rectangle27.png);
+    background-image: url(../img/Line3.png), url(../img/Line4.png), url(../img/home-page/header-bg.jpg), url(../img/home-page/Rectangle27.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 10% 19%, 7% 15%, 100% 71%, 100% 62%;
     background-position: 100% 0%, 0% 18%, 0% 0%, 0% 63%;
@@ -50,7 +50,7 @@ nav {
 
 .navbar-nav {
     position: absolute;
-    left: 54%;
+    left: 51%;
     top: 74px;
     z-index: 3;
 }
@@ -76,7 +76,7 @@ nav {
 }
 
 .set_heigh {
-    background: url(MaiAtech/img/Rectangle461.png), url(MaiAtech/img/home-page/Line1.png);
+    background: url(../img/Rectangle461.png), url(../img/home-page/Line1.png);
     background-position: 14% 22%, 79% 80%;
     background-repeat: no-repeat;
     background-size: 6%, 31% 23%;
@@ -127,7 +127,7 @@ nav {
 }
 
 .back-slogan {
-    background: url(MaiAtech/img/Rectangle46.png);
+    background: url(../img/Rectangle46.png);
     background-repeat: no-repeat;
     background-size: 70.8% 6%;
     background-position: 63% 101%;
@@ -169,7 +169,7 @@ nav {
 }
 
 .content-image {
-    background: url(MaiAtech/img/home-page/Ellipse1.png);
+    background: url(../img/home-page/Ellipse1.png);
     background-repeat: no-repeat;
     background-position: 50% 2%;
 }
@@ -220,7 +220,7 @@ nav {
 }
 
 .block-image {
-    background: url(MaiAtech/img/home-page/Ellipse2.png), url(MaiAtech/img/home-page/Group157.png);
+    background: url(../img/home-page/Ellipse2.png), url(../img/home-page/Group157.png);
     background-repeat: no-repeat, no-repeat;
     background-position: 75% 31%, 100% 109%;
     background-size: 36% 27%, 112% 66%;
@@ -232,7 +232,7 @@ nav {
 .we_do {
     color: black;
     flex-direction: column;
-    background: url(MaiAtech/img/home-page/Group87.png) no-repeat;
+    background: url(../img/home-page/Group87.png) no-repeat;
     background-size: 22% 76%;
     background-position: 50% 0%;
     padding-top: 20%;
@@ -255,7 +255,7 @@ nav {
     display: flex;
     padding-left: 6%;
     padding-right: 6%;
-    background: url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line2.png);
+    background: url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line2.png);
     background-repeat: no-repeat;
     background-position: 18% 41%, 39% 41%, 61% 41%, 82% 41%, 67.7% 40%;
     background-size: 17.7%, 17.7%, 17.7%, 17.7%, 1.5%;
@@ -339,7 +339,7 @@ nav {
 
 .flex-image {
     padding-top: 10%;
-    background: url(MaiAtech/img/home-page/Group172.png);
+    background: url(../img/home-page/Group172.png);
     background-repeat: no-repeat;
     background-size: 86% 98%;
     background-position: 100% 307%;
@@ -373,7 +373,7 @@ nav {
 }
 
 .group-square {
-    background: url(MaiAtech/img/home-page/Group115.png);
+    background: url(../img/home-page/Group115.png);
     background-repeat: no-repeat;
 }
 
@@ -385,7 +385,7 @@ nav {
 }
 
 .back-dev {
-    background: url(MaiAtech/img/home-page/Rectangle29.png), url(MaiAtech/img/home-page/Rectangle28.png);
+    background: url(../img/home-page/Rectangle29.png), url(../img/home-page/Rectangle28.png);
     background-position: 0% 0%, 100% 100%;
     background-size: 7%, 7%;
     background-repeat: no-repeat, no-repeat;
@@ -396,7 +396,7 @@ nav {
     padding-left: 10%;
     padding-bottom: 16%;
     padding-right: 8%;
-    background: url(MaiAtech/img/home-page/Ellipse11.png), url(MaiAtech/img/home-page/Ellipse9.png), url(MaiAtech/img/home-page/Line6.png), url(MaiAtech/img/home-page/Ellipse11.png);
+    background: url(../img/home-page/Ellipse11.png), url(../img/home-page/Ellipse9.png), url(../img/home-page/Line6.png), url(../img/home-page/Ellipse11.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 14% 50%, 51% 51%, 51% 51%, 88% 53%;
     background-size: 25%, 34%, 30%, 25%;
@@ -468,7 +468,7 @@ button[type=submit] {
 }
 
 .two-square {
-    background: url(MaiAtech/img/home-page/Group158.png) no-repeat;
+    background: url(../img/home-page/Group158.png) no-repeat;
     background-position: 96% 71%;
 }
 
@@ -496,7 +496,7 @@ button[type=submit] {
     padding-left: 10%;
     padding-bottom: 16%;
     padding-right: 10%;
-    background: url(MaiAtech/img/home-page/Ellipse11.png), url(MaiAtech/img/home-page/Ellipse9.png), url(MaiAtech/img/home-page/Line8.png), url(MaiAtech/img/home-page/Ellipse11.png);
+    background: url(../img/home-page/Ellipse11.png), url(../img/home-page/Ellipse9.png), url(../img/home-page/Line8.png), url(../img/home-page/Ellipse11.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 15% 48%, 51% 51%, 51% 51%, 85% 50%;
     background-size: 23%, 32%, 30%, 23%;
@@ -514,7 +514,7 @@ button[type=submit] {
 }
 
 .simple-slide {
-    background: url(MaiAtech/img/home-page/Rectangle32.png);
+    background: url(../img/home-page/Rectangle32.png);
     background-repeat: no-repeat;
     background-size: 102% 92%;
     margin-top: 3%;
@@ -525,7 +525,7 @@ button[type=submit] {
 }
 
 .center-slide {
-    background: url(MaiAtech/img/home-page/Rectangle32.png);
+    background: url(../img/home-page/Rectangle32.png);
     background-repeat: no-repeat;
     background-size: 102% 100%;
     padding-left: 1.97%;
@@ -585,7 +585,7 @@ item.active {
 }
 
 .back-img {
-    background: url(MaiAtech/img/home-page/Group87.png) no-repeat;
+    background: url(../img/home-page/Group87.png) no-repeat;
     background-position: -8% 54%;
 }
 
@@ -633,7 +633,7 @@ item.active {
 }
 
 .slogan-slide01 {
-    background: url(MaiAtech/img/home-page/Line7.png), url(MaiAtech/img/home-page/Rectangle27.png);
+    background: url(../img/home-page/Line7.png), url(../img/home-page/Rectangle27.png);
     background-repeat: no-repeat, no-repeat;
     background-size: 25% 100%, 98% 103%;
     background-position: 86% 100%;
@@ -650,13 +650,13 @@ item.active {
 
 .footer {
     background: 
-    url(MaiAtech/img/home-page/Rectangle1211.png), 
-    url(MaiAtech/img/home-page/Ellipse3.png), 
-    url(MaiAtech/img/home-page/Group114.png), 
-    url(MaiAtech/img/home-page/Primary.png), 
-    url(MaiAtech/img/home-page/Rectangle23.png), 
-    url(MaiAtech/img/home-page/MaskGroup6.png), 
-    url(MaiAtech/img/home-page/footer-bg.jpg);
+    url(../img/home-page/Rectangle1211.png), 
+    url(../img/home-page/Ellipse3.png), 
+    url(../img/home-page/Group114.png), 
+    url(../img/home-page/Primary.png), 
+    url(../img/home-page/Rectangle23.png), 
+    url(../img/home-page/MaskGroup6.png), 
+    url(../img/home-page/footer-bg.jpg);
     background-size: 5% 11%, 8% 11%, 7% 6%, 4% 4%, 100% 38%, 100% 38%, 100% 100%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 12.5%, 0% 32%, 0% 32%;
@@ -819,7 +819,7 @@ item.active {
         display: flex;
         padding-left: 6%;
         padding-right: 6%;
-        background: url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line2.png);
+        background: url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line2.png);
         background-repeat: no-repeat;
         background-position: 18% 44%, 39% 44%, 61% 44%, 82% 44%, 67.8% 43%;
         background-size: 17.7%, 17.7%, 17.7%, 17.7%, 1.5%;
@@ -916,7 +916,7 @@ item.active {
         display: flex;
         padding-left: 6%;
         padding-right: 6%;
-        background: url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line5.png), url(MaiAtech/img/home-page/Line2.png);
+        background: url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line5.png), url(../img/home-page/Line2.png);
         background-repeat: no-repeat;
         background-position: 18% 47%, 39% 47%, 61% 47%, 82% 47%, 67.8% 47%;
         background-size: 17.7%, 17.7%, 17.7%, 17.7%, 1.5%;
@@ -1003,7 +1003,7 @@ item.active {
     }
 
     .footer {
-        background: url(MaiAtech/img/home-page/Ellipse4.png), url(MaiAtech/img/home-page/Rectangle1211.png), url(MaiAtech/img/home-page/Ellipse3.png), url(MaiAtech/img/home-page/Group114.png), url(MaiAtech/img/home-page/Primary.png), url(MaiAtech/img/home-page/Rectangle23.png), url(MaiAtech/img/home-page/MaskGroup6.png), url(MaiAtech/img/home-page/footer-bg.jpg);
+        background: url(../img/home-page/Ellipse4.png), url(../img/home-page/Rectangle1211.png), url(../img/home-page/Ellipse3.png), url(../img/home-page/Group114.png), url(../img/home-page/Primary.png), url(../img/home-page/Rectangle23.png), url(../img/home-page/MaskGroup6.png), url(../img/home-page/footer-bg.jpg);
         background-size: 13% 11%, 7% 12%, 10% 9%, 7% 4%, 6% 4%, 100% 38%, 100% 38%, 100% 100%;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-position: 0% 10%, 0% 72%, 100% 70%, 87% 56.2% ,90% 12.5%, 0% 32%, 0% 32%, 0% 0%;
@@ -1462,7 +1462,7 @@ item.active {
     }
 
     .mobile_block-image {
-        background: url(MaiAtech/img/home-page/Ellipse2.png);
+        background: url(../img/home-page/Ellipse2.png);
         background-repeat: no-repeat;
         background-position: 100% 0%;
         background-size: 35%;
@@ -1478,7 +1478,7 @@ item.active {
         display: flex;
         flex-direction: column;
         margin-top: 5%;
-        background: url(MaiAtech/img/Line5.png), url(MaiAtech/img/Line5.png), url(MaiAtech/img/Line5.png), url(MaiAtech/img/Line5.png);
+        background: url(../img/Line5.png), url(../img/Line5.png), url(../img/Line5.png), url(../img/Line5.png);
         background-repeat: no-repeat;
         background-position: 8% 13%, 8% 38%, 8% 63%, 8% 88%;
     }
@@ -1714,7 +1714,7 @@ item.active {
     }
     
     .footer_mobile {
-        background: url(MaiAtech/img/home-page/Ellipse4.png), url(MaiAtech/img/home-page/Rectangle1211.png), url(MaiAtech/img/home-page/Ellipse3.png), url(MaiAtech/img/home-page/Group114.png), url(MaiAtech/img/home-page/Rectangle23_1.png), url(MaiAtech/img/home-page/MaskGroup7.png), url(MaiAtech/img/home-page/Vector.png);
+        background: url(../img/home-page/Ellipse4.png), url(../img/home-page/Rectangle1211.png), url(../img/home-page/Ellipse3.png), url(../img/home-page/Group114.png), url(../img/home-page/Rectangle23_1.png), url(../img/home-page/MaskGroup7.png), url(../img/home-page/Vector.png);
         background-size: 16%, 15% 8%, 22% 7%, 16% 3%, 100% 49%, 100% 49%, 100% 100%;
         background-repeat: no-repeat;
         background-position: 0% 1.5%, 0% 89%, 100% 90%, 87% 54.3% , 0% 13%, 0% 13%;

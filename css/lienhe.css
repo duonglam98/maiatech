@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Gilroy-Black1';
-    src: url(MaiAtech/fonts/Gilroy-Black1.otf);
+    src: url(../fonts/Gilroy-Black1.otf);
   }
 
 @font-face {
 font-family: 'OpenSans-Regular';
-src: url(MaiAtech/fonts/OpenSans-Regular.ttf);
+src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Gilroy-Regular1';
-    src: url(MaiAtech/fonts/Gilroy-Regular1.otf);
+    src: url(../fonts/Gilroy-Regular1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Semibold1';
-    src: url(MaiAtech/fonts/Gilroy-Semibold1.otf);
+    src: url(../fonts/Gilroy-Semibold1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Light1';
-    src: url(MaiAtech/fonts/Gilroy-Light1.otf);
+    src: url(../fonts/Gilroy-Light1.otf);
 }
 
 @font-face {
     font-family: 'Gilroy-Medium1';
-    src: url(MaiAtech/fonts/Gilroy-Medium1.otf);
+    src: url(../fonts/Gilroy-Medium1.otf);
 }
 
 
@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-    background-image: url(MaiAtech/img/Line3.png), url(MaiAtech/img/Line4.png), url(MaiAtech/img/home-page/header-bg.jpg);
+    background-image: url(../img/Line3.png), url(../img/Line4.png), url(../img/home-page/header-bg.jpg);
     background-size: 10% 19%, 5% 11%, 100% 66.7%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 100% 0%, 0% 21%;
@@ -78,7 +78,7 @@ nav {
 }
 
 .set_heigh {
-    background: url(MaiAtech/img/Rectangle461.png);
+    background: url(../img/Rectangle461.png);
     background-position: 14% 26%;
     background-repeat: no-repeat;
     background-size: 6%;
@@ -127,7 +127,7 @@ nav {
 }
 
 .back-slogan {
-    background: url(MaiAtech/img/Rectangle46.png);
+    background: url(../img/Rectangle46.png);
     background-repeat: no-repeat;
     background-size: 70.8% 6%;
     background-position: 63% 101%;
@@ -238,7 +238,7 @@ textarea {
 .sub-content {
     justify-content: flex-end;
     padding-right: 0%;
-    background: url(MaiAtech/img/Ellipse1.png), url(MaiAtech/img/Rectangle44.png), url(MaiAtech/img/Ellipse3.png), url(MaiAtech/img/Line21.png);
+    background: url(../img/Ellipse1.png), url(../img/Rectangle44.png), url(../img/Ellipse3.png), url(../img/Line21.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: 26% 18%, 0% 19%, 8% 62%, 0% 69%;
     background-size: 11% 11%, 11% 20%, 27% 24%, 45% 44%;
@@ -290,13 +290,13 @@ textarea {
 
 .footer {
     background: 
-    url(MaiAtech/img/home-page/Rectangle1211.png), 
-    url(MaiAtech/img/home-page/Ellipse3.png), 
-    url(MaiAtech/img/home-page/Group114.png), 
-    url(MaiAtech/img/home-page/Primary.png), 
-    url(MaiAtech/img/home-page/Rectangle23.png), 
-    url(MaiAtech/img/home-page/MaskGroup6.png), 
-    url(MaiAtech/img/home-page/footer-bg.jpg);
+    url(../img/home-page/Rectangle1211.png), 
+    url(../img/home-page/Ellipse3.png), 
+    url(../img/home-page/Group114.png), 
+    url(../img/home-page/Primary.png), 
+    url(../img/home-page/Rectangle23.png), 
+    url(../img/home-page/MaskGroup6.png), 
+    url(../img/home-page/footer-bg.jpg);
     background-size: 5% 11%, 8% 11%, 7% 6%, 4% 4%, 100% 38%, 100% 38%, 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 79%, 100% 74%, 87% 55.2% ,90% 12.5%, 0% 32%, 0% 32%;
@@ -718,7 +718,7 @@ textarea {
     }
     
     .footer_mobile {
-        background: url(MaiAtech/img/home-page/Rectangle1211.png), url(MaiAtech/img/home-page/Ellipse3.png), url(MaiAtech/img/home-page/Group114.png), url(MaiAtech/img/home-page/Rectangle23_1.png), url(MaiAtech/img/home-page/MaskGroup7.png), url(MaiAtech/img/home-page/Vector.png);
+        background: url(../img/home-page/Rectangle1211.png), url(../img/home-page/Ellipse3.png), url(../img/home-page/Group114.png), url(../img/home-page/Rectangle23_1.png), url(../img/home-page/MaskGroup7.png), url(../img/home-page/Vector.png);
         background-size: 15% 9%, 22% 7%, 16% 3%, 100% 49%, 100% 49%, 100% 100%;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-position: 0% 91%, 100% 90%, 87% 54.3% , 0% 13%, 0% 13%;
